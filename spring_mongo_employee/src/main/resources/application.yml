@@ -1,0 +1,13 @@
+spring:
+    data:
+        mongodb:
+            auto-index-creation: true
+            uri: mongodb://localhost:27017/Employees-API
+    cloud:
+      compatibility-verifier:
+        enabled: false
+
+sample:
+    api: employee
+
+
